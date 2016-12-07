@@ -9,8 +9,8 @@ import LibraryList from './components/LibraryList'
 const App = () => {
   return (
     <Provider store={createStore(reducers)}>
-        <View style={{ flex: 1 }}>
-          <Header headerText="BIQ APP" />
+      <View style={{ flex: 1 }}>
+        <Header headerText="BIQ APP" />
           <LibraryList />
         </View>
     </Provider>
